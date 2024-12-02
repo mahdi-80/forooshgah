@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav {
+    background-color: #1d4236;
+    text-align: center; /* مرکز کردن محتویات */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: inline-block; /* نمایش به صورت بلوک خطی */
+}
+
+nav ul li {
+    display: inline; /* نمایش آیتم‌ها به صورت افقی */
+}
+
+nav ul li a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+
+.container {
+    display: flex;
+    padding: 20px;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    width: 70%; /* عرض بخش محصولات */
+}
+
+.product {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    cursor: pointer; /* نشانگر ماوس به شکل اشاره‌گر */
+}
+
+.product-details {
+    width: 30%; /* عرض بخش جزئیات محصول */
+    padding: 20px;
+    border-left: 1px solid #ccc;
+}
+
+.product-details h2 {
+    margin-top: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #4CAF50;
+    color: white;
+}
+p , h1 {
+    text-align: right;
+}
+#footer{
+    text-align: center;
+    font-weight: bold;
+    font-family: b-titr;
+    font-style: italic;
+    
+
+}
+h2 {
+    text-align: center;
+    font-weight: bold;
+}
