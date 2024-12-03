@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
+    margin: 100;
     padding: 0;
 }
 
@@ -73,8 +73,14 @@ footer {
     background-color: #4CAF50;
     color: white;
 }
-p , h1 {
-    text-align: right;
+p {
+    text-align: center;
+    font-weight: bold;
+    font-family: b-titr;
+    font-style: italic;
+}
+h1{
+    text-align: center;
 }
 #footer{
     text-align: center;
@@ -88,3 +94,23 @@ h2 {
     text-align: center;
     font-weight: bold;
 }
+#product-title , #product-price {
+    text-align: center;
+    font-weight: bold;
+    background-color: #4CAF50;
+    font-weight: unset;
+
+    
+}
+#product-description{
+    flex-grow: inherit;
+    text-align: right;
+    background-color: #ffffff;
+    font-weight: unset;
+
+
+}
+/* #ul{
+ 
+} */
+ 
